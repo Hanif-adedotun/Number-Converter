@@ -67,7 +67,7 @@
 //This function here was written by https://stackoverflow.com/users/1220550/peter-b 
 /*This funcion is the engine of this code that takes in the value and coverts it.*/
 function NumInWords (number) {
-  const first = ['','One ','Two ','Three ','Four ', 'Five ','Six ','Seven ','Eight ','Nine ','Ten ','Eleven ','Twelve ','Thirteen ','Fourteen ','Fifteen ','Sixteen ','Seventeen ','Eighteen ','Nineteen '];
+  const first = ['Zero','One ','Two ','Three ','Four ', 'Five ','Six ','Seven ','Eight ','Nine ','Ten ','Eleven ','Twelve ','Thirteen ','Fourteen ','Fifteen ','Sixteen ','Seventeen ','Eighteen ','Nineteen '];
   const tens = ['', '', 'Twenty','Thirty','Forty','Fifty', 'Sixty','Seventy','Eighty','Ninety'];
   const mad = ['', 'Thousand,', 'Million,', 'Billion,', 'Trillion,'];
   let word = '';
@@ -190,7 +190,7 @@ function focusObj(){
       <button id="convertNumber" onclick="ConvertNumbers()">Convert</button>
       <span><button id="refresh"><img id="refreshImage" onclick ='reloadPage()' src="refresh-logo.png" height="15px" width="15px"/></button></span>
   </p>
-<p> Your numbers in words is:</p><span id="words"></span>
+<p> Your numbers in words are:</p><span id="words"></span>
 </div>
 
 <footer>
